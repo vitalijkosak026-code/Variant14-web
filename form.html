@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Форма - спорт после пар V14</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="catalog1.js" defer></script>
+</head>
+<main class="page">
+<body>
+<header>
+<h1 class="title1">
+Спорт после пар · V14
+</h1>
+<nav>
+<p><a href="index.html">Главная</a></p>
+<p><a href="catalog.html">Каталог</a></p>
+</nav>
+</header>
+<h1>Запись на занятие</h1>
+<p>Учебная форма. Данные пока не сохраняются.</p>
+<form class="request-form" method="get">
+<p>
+  <label for="item">Занятие</label>
+  <p>
+  <select id="item" name="item" required>
+    <option value="">Выберите из списка</option>
+    <option value="1">Волейбол</option>
+    <option value="2">Растяжка</option>
+    <option value="3">Бадминтон</option>
+  </p>
+  </select>
+</p>
+<p>
+  <label for="quantity">Количество занятий</label>
+  <p>
+  <input id="quantity" name="quantity" type="number"
+         min="1" step="1" value="1" required>
+  </p>
+</p>
+<p>
+  <label for="notes">Пожелания к тренировке</label>
+  <p>
+  <textarea id="notes" name="notes" rows="4"
+            placeholder="Опишите ваши пожелания"></textarea>
+  </p>
+</p>
+<fieldset>
+  <legend>Дополнительные возможности</legend>
+  <p>
+  <input id="extra1" name="extra1" type="checkbox" value="yes" checked>
+  <label for="extra1">Нужен инвентарь</label>
+</p>
+<p>
+  <input id="extra2" name="extra2" type="checkbox" value="yes" checked="false">
+  <label for="extra2">Первое занятие</label>
+</p>
+</fieldset>
+<p>Интенсивность</p>
+<input id="level1" name="level2" type="range"
+min="1" max="5" step="1" value="3">
+<p><label for="min">1 - Легкая;</label>
+<label for="max">5 - Высокая</label>
+</p>
+<p>
+<button type="submit">Выбрать занятие</button>
+</p>
+<p id="result" role="status" aria-live="polite"></p>
+</form>
+</main>
+</body>
+</html>

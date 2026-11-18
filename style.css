@@ -1,0 +1,162 @@
+h1 {
+  color: #4D2731;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: #4D2731;
+  background-color: #FFF0F2;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  margin: 24px;
+  overflow-wrap: anywhere;
+  h1, h2 {
+  color: #96384C;
+}
+a {
+  color: #96384C;
+}
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+nav a {
+  display: block;
+  padding: 8px 12px;
+  color:  #96384C;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  margin: 0;
+  max-width: 100%;
+}
+nav a:hover,
+nav a:focus-visible
+nav a[aria-current="page"] {
+  text-decoration: underline;
+}
+* {
+  box-sizing: border-box;
+}
+main.page {
+  width: 92%;
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.card {
+  border: 5px solid #96384C;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #FFFFFF;
+border-radius: 0.5rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.card img {
+  display: block;
+  width: 100%;
+  max-width: 18rem;
+}
+.request-form {
+  background-color: #FFFFFF;
+  border: 1px solid #94A3B8;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.form-field {
+  margin: 0 0 1rem;
+}
+.form-field > label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: bold;
+}
+.request-form input,
+.request-form select,
+.request-form textarea,
+.request-form button {
+  font: inherit;
+  accent-color:#96384C;
+}
+.request-form select,
+.request-form input[type="number"],
+.request-form textarea {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #64748B;
+  border-radius: 0.35rem;
+}
+.request-form input[type="range"] {
+  width: 100%;
+  accent-color:#96384C;
+}
+.request-form textarea {
+  resize: vertical;
+}
+.request-form button {
+  padding: 0.65rem 1rem;
+  border: 2px solid #96384C;
+  border-radius: 0.35rem;
+  background-color: #96384C;
+  color: #FFFFFF;
+}
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+button:focus-visible {
+  outline: 3px solid #C2410C;
+  outline-offset: 3px;
+}
+.text-with-border {
+  border: 3px solid #96384C;
+  background-color: #96384C;
+  color: #FFFFFF;
+}
+.text-with-border2 {
+  background-color: #FEF3C7;
+  color: #78350F;
+}
+.ее {
+   background-color: #96384C
+}
+.title1 {
+  background-color: #96384C;
+  color: #FFFFFF;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.products > .card {
+  flex: 1 1 16rem;
+  min-width: 0;
+  margin-bottom: 0;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+@media (max-width: 600px) {
+  main.page {
+    padding: 0.75rem;
+  }
+  .products > .card {
+    flex-basis: 100%;
+  }
+}
