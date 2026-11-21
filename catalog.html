@@ -33,5 +33,12 @@
 <p id="status" role="status"></p>
 </div>
 </main>
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./sw.js").catch((error) => {
+      console.error("Не удалось зарегистрировать service worker:", error);
+    });
+  }
+</script>
 </body>
 </html>
