@@ -72,5 +72,12 @@ min="1" max="5" step="1" value="3">
 <p id="result" role="status" aria-live="polite"></p>
 </form>
 </main>
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./sw.js").catch((error) => {
+      console.error("Не удалось зарегистрировать service worker:", error);
+    });
+  }
+</script>
 </body>
 </html>
