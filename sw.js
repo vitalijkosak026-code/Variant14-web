@@ -11,8 +11,8 @@ const FILES = [
   "./style.css",
   "./catalog.js",
   "./catalog-page.js",
-  "C:\Users\ДЭ_09.02.06_2026_4\Downloads\Variant14-web — копия (2)\images\item1.png"
-  "C:\Users\ДЭ_09.02.06_2026_4\Downloads\Variant14-web — копия (2)\images\item2.png"
+  "C:\Users\ДЭ_09.02.06_2026_4\Downloads\Variant14-web — копия (2)\images\item1.png",
+  "C:\Users\ДЭ_09.02.06_2026_4\Downloads\Variant14-web — копия (2)\images\item2.png",
   "C:\Users\ДЭ_09.02.06_2026_4\Downloads\Variant14-web — копия (2)\images\item3.png"
 ];
 
